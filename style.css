@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.node-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    padding: 1px 4px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    user-select: none;
+}
+
+.icon-container-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mood-icon {
+    max-width: 21px;
+    max-height: 21px;
+}
